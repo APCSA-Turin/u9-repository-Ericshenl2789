@@ -12,6 +12,11 @@ public class Laptop extends Computer{
         return trackPadCalibrated;
     }
 
+    @Override
+    public void installOperatingSystem(){
+        System.out.println("installing OS on my laptop…");
+    }
+
     public void calibrateTrackpad() {
         if (!trackPadCalibrated) {
             trackPadCalibrated = true;
